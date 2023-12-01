@@ -18,7 +18,7 @@ class EvaluatorBuilder{
             case ">":
                 return (a1, b1) -> a1.compareTo(b1) > 0;
         }
-    return (a, b) -> false;
+        return (a, b) -> false;
     }
 }
 
